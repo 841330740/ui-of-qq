@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>hot_uses</class>
+ <widget class="QDialog" name="hot_uses">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>160</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>5</y>
+     <width>150</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>150</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>会员红名</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>35</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>QQ等级加速</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>65</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>会员头像</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>100</y>
+      <width>152</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>会员魔法表情</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>35</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>签名标签</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>170</y>
+      <width>152</width>
+      <height>160</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>好友上限</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>35</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>会员群特权</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>65</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>消息记录漫游</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>95</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>表情漫游</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>125</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>离线传文件</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>150</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>好友克隆</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>35</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>群克隆</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>65</y>
+       <width>151</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>好友恢复</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

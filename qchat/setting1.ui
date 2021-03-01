@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setting1</class>
+ <widget class="QDialog" name="setting1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>186</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>166</width>
+     <height>226</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="my_email">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>7</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>我的邮箱</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="vip_center">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>97</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>QQ会员中心</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="my_shopping">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>37</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>我的购物</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="my_purse">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>67</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>我的钱包</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dianping">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>127</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>大众点评</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="app_center">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>157</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>应用中心</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="layout_control">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>187</y>
+      <width>166</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>界面管理器</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

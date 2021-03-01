@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>qq_main_menu</class>
+ <widget class="QDialog" name="qq_main_menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>230</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>7</y>
+     <width>215</width>
+     <height>380</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>215</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QToolButton" name="my_collect">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>71</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>我的收藏</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="files_helper">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>0</y>
+       <width>71</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>文件助手</string>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="manage_com">
+     <property name="geometry">
+      <rect>
+       <x>144</x>
+       <y>0</y>
+       <width>71</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>消息管理</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>80</y>
+      <width>217</width>
+      <height>225</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>9</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>QQ会员</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>39</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>安全</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>69</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>帮助</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>99</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>升级</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>129</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>聊天记录备份与恢复</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>159</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>189</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>关于QQ</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>17</y>
+       <width>15</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>47</y>
+       <width>15</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>77</y>
+       <width>15</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>305</y>
+      <width>215</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>5</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>切换账号</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>35</y>
+       <width>215</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
